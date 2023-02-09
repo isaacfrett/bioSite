@@ -1,0 +1,159 @@
+
+
+
+/* Navbar */
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #395375;
+    height: auto;
+    padding-left: 30px;
+}
+
+.button {
+    padding: 20px;
+    background-color: #395375;
+    color: white;
+    border: none;
+    margin: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: none;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: large;
+    text-decoration: none;
+    display: block;
+}
+
+.button:hover {
+    text-decoration: underline;
+    background-color: #1A2636;
+}
+
+
+
+
+
+/* Body */
+
+
+
+
+
+
+.body {
+    display: grid;
+}
+
+.body img {
+    max-width: 20%;
+    height: auto;
+    display: flex;
+}
+
+.body h1 {
+    text-align: center;
+}
+
+.body p {
+    text-align: justify;
+    display: flex;
+    width: auto;
+    max-width: 80%;
+}
+
+.content {
+    display: inline;
+}
+
+
+
+
+/* Hobbies Page */
+
+
+
+.hobbies1 {
+    float: right;
+}
+
+.hobbies1 img {
+    float: left;
+    margin: 5px;
+}
+
+.hobbies2 {
+    float: left;
+}
+
+.hobbies2 img {
+    float: right;
+    margin: 5px;
+}
+
+.hobbies3 {
+    float: right;
+}
+
+.hobbies3 img {
+    float: left;
+    margin: 5px;
+}
+
+
+
+/*  Home Page */
+
+.goals1 {
+    float: left;
+}
+
+.goals1 img {
+    float: right;
+    margin: 5px;
+}
+
+.goals2 {
+    float: right;
+}
+
+.goals2 img {
+    float: left;
+    margin: 5px;
+}
+
+.goals3 {
+    float: left;
+}
+
+.goals3 img {
+    float: right;
+    margin: 5px;
+}
+
+
+
+/* About Page */
+
+
+.info img {
+    border-radius: 50%;
+    margin: 5px;
+    display: flex;
+    float: left;
+    
+}
+
+.info h1 {
+    text-align: center;
+    margin: 1.5em;
+    font-size: 6em;
+}
+
+.about {
+    text-align: center;
+}
