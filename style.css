@@ -18,10 +18,8 @@
     background-color: #395375;
     color: white;
     border: none;
-    margin: none;
     padding-top: 6px;
     padding-bottom: 6px;
-    margin: none;
     font-family: 'Ubuntu';
     font-weight: 700;
     font-size: large;
@@ -145,7 +143,7 @@
     margin: 5px;
     display: flex;
     float: left;
-    
+
 }
 
 .info h1 {
