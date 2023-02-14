@@ -11,6 +11,8 @@
     background-color: #395375;
     height: auto;
     padding-left: 30px;
+    margin: none;
+    padding: none;
 }
 
 .button {
@@ -64,14 +66,16 @@
     text-align: justify;
     display: flex;
     width: auto;
-    max-width: 80%;
     font-weight: 400;
-
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 10px
 }
 
 .content {
     display: inline;
 }
+
 
 
 
@@ -145,7 +149,7 @@
 
 .info img {
     border-radius: 50%;
-    margin: 5px;
+    padding: 5px;
     display: flex;
     float: left;
 
@@ -153,10 +157,30 @@
 
 .info h1 {
     text-align: center;
-    margin: 1.5em;
+    margin: 1em;
     font-size: 6em;
 }
 
-.about {
+.about p {
     text-align: center;
+    max-width: auto;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+footer {
+    background-color: #395375;
+    padding-left: 30px;
+    height: auto;
+    padding: 10px;
+    position: static;
+}
+
+footer a {
+    color: white;
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    text-decoration: none;
+
 }
