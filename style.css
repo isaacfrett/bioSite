@@ -45,6 +45,8 @@
 
 .body {
     display: grid;
+    font-family: 'Ubuntu';
+
 }
 
 .body img {
@@ -55,6 +57,7 @@
 
 .body h1 {
     text-align: center;
+    font-weight: 500;
 }
 
 .body p {
@@ -62,6 +65,8 @@
     display: flex;
     width: auto;
     max-width: 80%;
+    font-weight: 400;
+
 }
 
 .content {
