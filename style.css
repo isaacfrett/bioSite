@@ -16,12 +16,10 @@
 }
 
 .button {
-    padding: 20px;
+    padding: 15px;
     background-color: #395375;
     color: white;
     border: none;
-    padding-top: 6px;
-    padding-bottom: 6px;
     font-family: 'Ubuntu';
     font-weight: 700;
     font-size: large;
@@ -48,13 +46,20 @@
 .body {
     display: grid;
     font-family: 'Ubuntu';
+    margin-left: 20%;
+    margin-right: 20%;
 
 }
 
 .body img {
-    max-width: 20%;
-    height: auto;
+    max-width: auto;
+    max-height: auto;
+    width: 30%;
+    height: fit-content;
     display: flex;
+    border-radius: 3.5%;
+    margin: 10px;
+    padding: 10px;
 }
 
 .body h1 {
@@ -69,11 +74,14 @@
     font-weight: 400;
     font-size: 1.5em;
     padding: 10px;
-    margin: 10px
+    line-height: 35px;
+    vertical-align: middle;
+    align-items: center;
+    
 }
 
 .content {
-    display: inline;
+    display: flex;
 }
 
 
@@ -149,20 +157,21 @@
 
 .info img {
     border-radius: 50%;
-    padding: 5px;
-    display: flex;
-    float: left;
-
+    padding: 15px 10px 5px 5px;
+    width: 18%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .info h1 {
     text-align: center;
-    margin: 1em;
-    font-size: 6em;
+    margin: 0.1em;
+    font-size: 5em;
 }
 
 .about p {
-    text-align: center;
+    text-align: center justify;
     max-width: auto;
     width: 90%;
     padding-left: 5%;
@@ -173,8 +182,9 @@ footer {
     background-color: #395375;
     padding-left: 30px;
     height: auto;
-    padding: 10px;
-    position: static;
+    position: bottom;
+    margin-top: 2.3%;
+    display: flex;
 }
 
 footer a {
@@ -182,5 +192,11 @@ footer a {
     font-family: 'Ubuntu';
     font-weight: 300;
     text-decoration: none;
+    padding: 10px;
 
+}
+
+footer a:hover {
+    text-decoration: underline;
+    background-color: #1A2636;
 }
