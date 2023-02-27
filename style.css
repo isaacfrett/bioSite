@@ -46,20 +46,24 @@
 .body {
     display: grid;
     font-family: 'Ubuntu';
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
 
 }
 
 .body img {
     max-width: auto;
     max-height: auto;
-    width: 30%;
+    width: 300px;
     height: fit-content;
     display: flex;
     border-radius: 3.5%;
     margin: 10px;
     padding: 10px;
+    line-height: 35px;
+
+    vertical-align: middle;
+    align-items: center;
 }
 
 .body h1 {
